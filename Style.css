@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+.Profile{
+    width: 115px;
+    height: 120px;
+    border: 5px solid #11999e;
+    border-radius: 50%;
+   float: left;
+   margin-right: 40px ;
+    }
+.bio{
+    float: left;
+    padding-top: 30px;
+    color: #11999e;
+}
+.address{
+    float: right;
+    margin: 30px;
+}
+.address p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #11999e;
+}
+.address p a:hover{
+    text-decoration: none;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-width: 100%;
+    margin: 20px;
+    border-bottom: none;
+}
+main{
+margin: 20px;
+}
+.left-div{
+float: left;
+width: 30%;
+color: #11999e;
+}
+.right-div{
+float: left;
+width: 70%;
+font-weight: bold;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+.right-div span{
+    font-size: larger;
+    color: #11999e;
+}
+#work{
+    margin: 20px;
+
+}
+#Skills{
+    margin: 20px;
+}
+.HSC h3,h4,.BSc h3,h4{
+    color: #11999e;
+}
+.HSC{
+float: left;
+width: 45%;
+}
+.BSc{
+float: right;
+width: 45%;
+}
+#Education{
+    margin: 20px;
+}
+#Awards{
+    margin: 20px;
+}
+.right-div ul{
+    list-style-type: square;
+}
+#Refar{
+    margin: 20px;
+}
+.black{
+    color: black;
+}
+.foot{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.foot a:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: bolder;
+    font-size: 120%;
+}
+.foot p{
+    color: white;
+    padding-top: 5px;
+}
